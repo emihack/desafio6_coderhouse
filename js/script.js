@@ -1,4 +1,4 @@
-//simulador para otener datos para la renovación de seguro automotor
+//simulador obtiene datos para la renovación de una póliza
 alert("INGRESÁ LOS DATOS PARA RENOVAR LA PÓLIZA DE TU VEHÍCULO")
 
 class seguros{
@@ -14,7 +14,7 @@ class seguros{
 let renovacionPoliza= [];
 //for
 for (let i =0; i < 1; i++){
-    //info. necesaria para una base de datos(?)
+    //info base de datos
     let nombre = prompt("Ingrese el nombre y apellido del asegurado").toUpperCase();
     let patente = prompt("Ingrese la patente del vehículo asegurado").toUpperCase();
     let vencimiento = prompt("Ingrese la fecha de vencimiento de su póliza").toUpperCase();
